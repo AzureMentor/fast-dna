@@ -26,6 +26,8 @@ import { TabPanel } from '@microsoft/fast-foundation';
 import { Tabs } from '@microsoft/fast-foundation';
 import { TextArea } from '@microsoft/fast-foundation';
 import { TextField } from '@microsoft/fast-foundation';
+import { TreeItem } from '@microsoft/fast-foundation';
+import { TreeView } from '@microsoft/fast-foundation';
 
 // Warning: (ae-forgotten-export) The symbol "SwatchFamilyResolver" needs to be exported by the entry point index.d.ts
 // Warning: (ae-forgotten-export) The symbol "FillSwatchFamily" needs to be exported by the entry point index.d.ts
@@ -377,6 +379,14 @@ export class FASTTextArea extends TextArea {
 
 // @public (undocumented)
 export class FASTTextField extends TextField {
+}
+
+// @public (undocumented)
+export class FASTTreeItem extends TreeItem {
+}
+
+// @public (undocumented)
+export class FASTTreeView extends TreeView {
 }
 
 // @public
